@@ -1,0 +1,119 @@
+
+
+
+
+body {
+  background-color: #22272b;
+  margin: 0 auto;
+}
+
+.navBar {
+  height: 70px;
+  width: 100%;
+  background-color: #eee;
+}
+
+.navBar h1{
+  position: absolute;
+  margin: 22px 0 0 25px;
+  font-family: sans-serif;
+  color: #222722;
+}
+
+.topMenu {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+}
+
+.topMenu ul li {
+  list-style: none;
+  display: inline;
+}
+
+.topMenu ul li a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #222722;
+  margin-left: 25px;
+  font-size: 20px;
+}
+.container {
+  min-height: 600px;
+  width: 80%;
+  background-color: #eee;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.content {
+  border: 1px solid red;
+  display: inline-block;
+  width: 55%;
+  float: right;
+  margin: 70px 70px 0 0;
+  height: 450px;
+}
+
+.profil {
+  display: inline;
+}
+
+.profil img{
+  height: 25%;
+  width: 30%;
+  margin: 65px;
+  border: 5px dashed #000;
+}
+
+.skills {
+  min-height: 350px;
+  width: 80%;
+  margin-top: 150px;
+  margin: 0 auto;
+  background-color: #eee;
+  margin-bottom: 50px;
+}
+
+.flexContent {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 80%;
+  min-height: 300px;
+  display: block;
+}
+
+.formations {
+  background-color: #eee;
+  width: 48.5%;
+  height: 300px;
+  float: left;
+}
+
+.competences {
+  background-color: #eee;
+  width: 48.5%;
+  height: 300px;
+  float: right;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: #eee;
+}
+
+
+@media (max-width: 900px) {
+  .topMenu {
+    display: none;
+  }
+
+  .profil img {
+    width: 80%;
+    margin: 45px;
+  }
+}
